@@ -1,0 +1,11 @@
+{
+  "name": "dc-ignite-ui",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}

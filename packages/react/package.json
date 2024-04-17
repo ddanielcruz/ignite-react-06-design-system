@@ -1,10 +1,8 @@
 {
-  "name": "@dc-ignite-ui/tokens",
+  "name": "@dc-ignite-ui/react",
   "version": "0.0.1",
   "license": "MIT",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "index.js",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --minify --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
@@ -12,6 +10,7 @@
   },
   "devDependencies": {
     "@dc-ignite-ui/eslint-config": "workspace:*",
+    "@dc-ignite-ui/tokens": "workspace:*",
     "@dc-ignite-ui/ts-config": "workspace:*"
   }
 }
