@@ -4,13 +4,19 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --minify --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.tsx --format esm,cjs --minify --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
     "@dc-ignite-ui/eslint-config": "workspace:*",
     "@dc-ignite-ui/tokens": "workspace:*",
-    "@dc-ignite-ui/ts-config": "workspace:*"
+    "@dc-ignite-ui/ts-config": "workspace:*",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
   }
 }
