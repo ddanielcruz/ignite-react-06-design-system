@@ -1,8 +1,10 @@
 {
   "name": "@dc-ignite-ui/react",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.tsx --format esm,cjs --minify --dts --external react",
     "dev": "tsup src/index.tsx --format esm,cjs --dts --watch",

@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@dc-ignite-ui/eslint-config",
+    "plugin:storybook/recommended"
+  ]
+}

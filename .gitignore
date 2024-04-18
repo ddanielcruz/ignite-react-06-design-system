@@ -132,3 +132,5 @@ dist
 # Turbo
 .turbo
 build/**
+
+*storybook.log
