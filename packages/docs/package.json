@@ -10,6 +10,7 @@
   "dependencies": {
     "@dc-ignite-ui/react": "workspace:^",
     "@dc-ignite-ui/tokens": "workspace:^",
+    "polished": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -21,9 +22,11 @@
     "@storybook/addon-links": "^8.0.8",
     "@storybook/addon-onboarding": "^8.0.8",
     "@storybook/blocks": "^8.0.8",
+    "@storybook/manager-api": "^8.0.8",
     "@storybook/react": "^8.0.8",
     "@storybook/react-vite": "^8.0.8",
     "@storybook/test": "^8.0.8",
+    "@storybook/theming": "^8.0.8",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
