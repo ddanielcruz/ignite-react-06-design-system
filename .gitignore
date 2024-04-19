@@ -133,4 +133,6 @@ dist
 .turbo
 build/**
 
+# Storybook
 *storybook.log
+storybook-static
