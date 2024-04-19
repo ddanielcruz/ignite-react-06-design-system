@@ -30,3 +30,5 @@ export interface HeadingProps
 }
 
 export const Heading: React.FC<HeadingProps> = HeadingComponent
+
+Heading.displayName = 'Heading'

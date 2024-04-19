@@ -34,3 +34,5 @@ export type TextProps = React.ComponentProps<typeof TextComponent> & {
 }
 
 export const Text: React.FC<TextProps> = TextComponent
+
+Text.displayName = 'Text'

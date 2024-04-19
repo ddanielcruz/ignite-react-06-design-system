@@ -1,4 +1,5 @@
 import type { Preview } from '@storybook/react'
+import { colors } from '@dc-ignite-ui/tokens'
 
 const preview: Preview = {
   parameters: {
@@ -10,6 +11,16 @@ const preview: Preview = {
     },
     backgrounds: {
       default: 'dark',
+      values: [
+        {
+          name: 'dark',
+          value: colors.gray900,
+        },
+        {
+          name: 'light',
+          value: colors.white,
+        },
+      ],
     },
   },
 }

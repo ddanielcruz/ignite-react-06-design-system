@@ -12,3 +12,5 @@ export type BoxProps = React.ComponentProps<typeof BoxComponent> & {
 }
 
 export const Box: React.FC<BoxProps> = BoxComponent
+
+Box.displayName = 'Box'

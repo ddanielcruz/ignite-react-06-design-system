@@ -10,6 +10,7 @@
   "dependencies": {
     "@dc-ignite-ui/react": "workspace:^",
     "@dc-ignite-ui/tokens": "workspace:^",
+    "@phosphor-icons/react": "^2.1.5",
     "polished": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@chromatic-com/storybook": "^1.3.3",
     "@dc-ignite-ui/eslint-config": "workspace:^",
+    "@storybook/addon-a11y": "^8.0.8",
     "@storybook/addon-essentials": "^8.0.8",
     "@storybook/addon-interactions": "^8.0.8",
     "@storybook/addon-links": "^8.0.8",
