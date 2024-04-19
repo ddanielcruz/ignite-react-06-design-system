@@ -29,5 +29,5 @@ jobs:
         with:
           install_command: pnpm install
           build_command: pnpm build
-          path: packages/docs/storybook-static
+          path: ./packages/docs/storybook-static
           checkout: false
