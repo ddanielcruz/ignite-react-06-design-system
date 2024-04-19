@@ -2,5 +2,5 @@
   "extends": "@dc-ignite-ui/ts-config/react.json",
   "include": [
     "src"
-  ]
+  ],
 }
