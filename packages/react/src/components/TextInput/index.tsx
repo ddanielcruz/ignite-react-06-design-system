@@ -1,3 +1,5 @@
+import { forwardRef } from 'react'
+
 import { TextInputContainer, TextInputInput, TextInputPrefix } from './styles'
 
 export interface TextInputProps
@@ -5,13 +7,13 @@ export interface TextInputProps
   prefix?: string
 }
 
-export function TextInput({ prefix, ...props }: TextInputProps) {
-  return (
+export const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
+  ({ prefix, ...props }, ref) => (
     <TextInputContainer>
       {!!prefix && <TextInputPrefix>{prefix}</TextInputPrefix>}
-      <TextInputInput {...props} />
+      <TextInputInput ref={ref} {...props} />
     </TextInputContainer>
-  )
-}
+  ),
+)
 
 TextInput.displayName = 'TextInput'

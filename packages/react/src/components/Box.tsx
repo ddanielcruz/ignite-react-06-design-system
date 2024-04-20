@@ -1,7 +1,7 @@
 import { styled } from '../styles'
 
 const BoxComponent = styled('div', {
-  padding: '$4',
+  padding: '$6',
   borderRadius: '$md',
   backgroundColor: '$gray800',
   border: '1px solid $gray600',

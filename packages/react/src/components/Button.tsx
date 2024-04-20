@@ -23,6 +23,10 @@ const ButtonComponent = styled('button', {
     cursor: 'not-allowed',
   },
 
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100',
+  },
+
   svg: {
     width: '$4',
     height: '$4',
